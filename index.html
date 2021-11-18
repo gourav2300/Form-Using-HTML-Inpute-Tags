@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<style>
+		.bgcolor{
+			background-color: red
+		}
+
+		.color{
+			background-color: green
+			
+		}
+
+	</style>
+</head>
+<body background="C:\Users\dell\Desktop\task\1.jpg">
+	
+	
+	<center><marquee><h1 style="font-weight: bolder; color: black; font-size: 20px;">Form Using Input Tages</marquee></h1>
+		    <h2 style="color: red;">Input Tags</h2>
+		<form>
+		<table bgcolor="#54C571" border="2" cellspacing="10" >
+			<tr><td><strong>Name</strong></td>
+				<td><input type="text" placeholder="Name" name="n2" required></td>
+			</tr>
+
+				<tr><td><strong>Email ID</strong></td>
+				<td><input type="text" placeholder="Email Id" name="em" required></td>
+			</tr>
+
+
+			<tr><td><strong>Password</strong></td>
+				<td><input type="password" placeholder="Password" required></td>
+			</tr>
+
+			<tr><td><strong>AGE</strong></td>
+				<td><input type="number" name="age" size="3" placeholder="Age" required></td>
+			</tr>
+
+
+			<tr><td><strong>Gender</strong></td>
+				<td><input type="radio" name="gender" value="male">male
+					<input type="radio" name="gender" value="female">female
+					<input type="radio" name="gender" value="female">Other
+				</td>
+					
+			</tr>
+
+			<tr>
+				<td><strong>DOB</strong></td>
+				<td><input type="date" name="date"  required></td>
+			</tr>
+
+			<tr>
+				<td><strong>country</strong></td>
+				<td><select name="country" >
+					<option value=" " selected=""></option>
+					<option value="India">India</option>
+					<option value="pak">Pakistan</option>
+					<option value="India">Afghanistan</option>
+					<option value="pak">Austria</option>
+					<option value="India">Brazil</option>
+					<option value="pak">Australia</option>
+				</select></td>
+			</tr>
+
+			<tr><td><strong>Moblie No</strong></td>
+				<td><input type="number" name="mobnumber" placeholder="Mobile No" required></td>
+
+			</tr>
+
+			<tr>
+				<td><strong>Address</strong></td>
+				<td><textarea rows="3" cols="20" name="myadd" placeholder="Address" required></textarea></td>
+			</tr>	
+
+			<tr>
+				<td><strong>Hobbies</strong></td>
+				<td><input type="checkbox" name="Writing" value="Books">Writing
+					<input type="checkbox" name="Reading" value="Books">Reading
+					<input type="checkbox" name="Reading" value="Books">Playing
+				</td>
+			</tr>
+
+			<tr>
+				<td><strong>Color</strong></td>
+				<td><input type="color" name="favcolor" value="#ff0000">Choose Favorite Color</td>
+			</tr>
+
+
+			<tr>
+				<td><strong>Upload File</strong></td>
+				<td><input type="file" value="file"></td>
+			</tr>
+
+			<tr>
+				<td><strong>Choose Time</strong></td>
+				<td><input type="time"></td>
+			</tr>
+
+
+			
+			<tr align="center">
+				<td><input type="submit" name="submit" value="submit" class="color"></td>
+				<td><input type="reset" name="reset" value="reset" class="bgcolor"></td>
+
+			</tr>
+		</table>
+		</form>
+		</center>
+
+		
+
+		
+</body>
+</html>
